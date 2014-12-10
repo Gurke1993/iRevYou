@@ -1,0 +1,219 @@
+
+/*Body-Includes all Elements*/
+body {
+font-size:1.3em;
+font-family: 'Open Sans', sans-serif;
+margin:0px ;
+background-color:#ecf0f1; 
+}
+
+
+/*Contentstuff*/
+header {
+width:100%;
+padding-top:65px;
+height:600px;
+/* Padding-top + height = oberer Bereich*/
+text-align:center;
+background-color:#2980b9;
+background-position:top;
+background-image: url(resources/2.jpg); 	 
+}
+
+/* Container for .element*/
+.content{
+position:absolute;
+width:100%;
+margin:0px auto;
+padding-bottom:30px;
+padding-top:25px;
+display:flex;
+text-align:left;
+background-color:#ecf0f1;
+bottom:0px;
+}
+
+
+/*Content*/
+.element {
+display:block;
+color: #2E2E2E; 
+font-weight: 400; 
+margin: 0px ;
+padding-top:40px;
+background-color:#ecf0f1; 
+text-align:center;
+width:33.333%;
+/*hover übergang*/
+-webkit-transition: padding-top 0.4s, color 0.4s; /* For Safari 3.1 to 6.0 */
+transition: padding-top 0.4s, color 0.4s;
+}
+
+/* title - divs*/
+strong{
+font-weight: 700; 
+}
+
+ele-1{flex: 1;}
+ele-2{flex: 1;}
+ele-3{flex: 1;}
+
+/*ToDo*/
+footer {}
+
+.logo{
+width:360px;
+height:180px;
+}
+
+.icon{
+width:80px;
+height:80px;
+display:block;
+margin:auto;
+margin-bottom: 5px;
+
+
+}
+
+
+
+
+
+/* Raster */
+.columns {float:left;
+}
+/*Small*/
+@media screen and (max-width:660px){
+header{height:400px;}
+
+.element{width:100%;
+position:relative;}
+
+.content{
+position:relative;
+flex-direction:column;
+}
+.ele-1{order:2;}
+.ele-2{order:1;}
+.ele-3{order:3;}
+} 
+
+/*Medium*/
+@media screen and (max-width:1080px ) and (min-width:660px) {
+
+header{height:400px;}
+
+.element{width:100%;
+position:relative;
+margin-bottom:10px;
+}
+
+.content{
+position:relative;
+flex-direction:column;
+}
+
+.ele-1{order:2; }
+.ele-2{order:1;}
+.ele-3{order:3;}
+
+
+.icon{
+display:block;
+width:140px;
+height:140px;
+margin:0px auto;
+margin-bottom:15px;
+}
+
+} 
+/*Large*/
+@media screen and (min-width:1080px )  {
+.element:hover{padding-top: 10px;color:#2980b9;}
+}
+/**********************************************************/
+@media screen and (max-height:740px )  {
+header{height:400px;}
+
+.element{width:100%;
+position:relative;
+margin-bottom:10px;
+}
+
+.content{
+position:relative;
+flex-direction:column;
+}
+
+.ele-1{order:2; }
+.ele-2{order:1;}
+.ele-3{order:3;}
+
+
+.icon{
+display:block;
+width:140px;
+height:140px;
+margin:0px auto;
+margin-bottom:15px;
+}
+}
+/************************************************************************/
+@media screen and (max-width:360px ) {
+.logo{
+width:280px;
+height:140px;
+}
+} 
+
+
+
+/*Registerbox*/
+.register{
+background: black;
+background-color: white;
+display:inline; 
+padding-top:10px;
+width: 300px;
+height:100px;
+margin-left: -150px;
+border-radius: 2px;
+text-align:center;
+/*position:absolute; */
+position:relative;
+}
+
+
+/*Input: Email*/
+input[type=email]{
+height: 35px;
+width:251px;
+background-color: #ecf0f1;
+padding:0px 0px 0px 7px;
+border:1px solid #335372;
+border-radius: 2px;
+margin:0px -6px 7px 0px;
+outline: 0 none;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+}
+
+/*Input:ButtonEmail*/
+input[type=submit]{
+height: 35px;
+width:260px;
+border:1px solid black;
+border-radius: 2px;
+padding: 0px;
+margin: 0px 0px 0px 0px;
+background-color: #2E2E2E;
+outline: 0 none;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+color: #ecf0f1;
+}
+/*Input.active:Email*/
+input[type=submit]:active{
+background-color: black;
+}
