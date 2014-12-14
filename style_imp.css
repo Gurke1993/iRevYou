@@ -1,0 +1,23 @@
+
+/*Body-Includes all Elements*/
+body {
+font-size:1.3em;
+font-family: 'Open Sans', sans-serif;
+margin:0px ;
+padding-top:65px;
+text-align:center;
+background-color:#2980b9;
+background-position:top;
+background-image: url(resources/1.jpg); 	 
+}
+
+header {
+width:42%;
+margin: 0px auto;
+padding:30px;
+background-color:white;	 
+}
+.logo{
+width:360px;
+height:180px;
+}
