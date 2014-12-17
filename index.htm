@@ -3,9 +3,21 @@
 
 
 <head>
-<script src="modernizr.custom.14167.js"></script>
+<!--<script src="modernizr.custom.14167.js"></script> -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'><!--OpenSansFont 700 300 400 -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" media="screen" href="pfad/zu/ie6.css" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="pfad/zu/ie7.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="screen" href="pfad/zu/ie8.css" />
+<![endif]-->
+	
 	<meta charset="UTF-8" > 
 	<title>iRevYou</title>
 </head>
@@ -13,7 +25,7 @@
 <body>
 
 
-<header class="borderbox  columns">
+<header class="columns">
 
 <!-- Logo -->
 <img src="resources/logo_v3.png"  alt="logo" class="logo">
@@ -23,14 +35,14 @@
 
 <!-- Registerbox  -->
 <br>
-<div class="register">
+<!-- <div class="register "> -->
 			<form action="newsletter.php" methods="get" >
-				<input type="email" name="address"  placeholder="E-Mail" maxlength="255"  autocomplete="off" autofocus/> 
-				<br><input type="submit" name="register"  alt="register" value="Registrieren"/>        
+				<input type="email" name="address"  placeholder="E-Mail"  class="" autocomplete="off" autofocus/> 
+				<br><input type="submit" name="register"  alt="register" class="" value="Registrieren"/>        
 			</form>
 
 
-</div>
+<!--</div> -->
 </header>
 
 
