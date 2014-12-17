@@ -1,0 +1,22 @@
+;<?php
+;die(); // For further security
+;/*
+
+; Sample Config for iRevyou
+; Written by Moritz Pfeiffer
+
+; User for Newsletter - Insert only
+[db_user_newsletter]
+db_newsletter_dbname = "DBNAME"
+db_newsletter_username = "USER"
+db_newsletter_password = "PASSWORD"
+
+; User for Productview - Read only
+[db_user_productreader]
+db_productreader_dbname = "DBNAME"
+db_productreader_username = "USER"
+db_productreader_password = "PASSWORD"
+
+;*/
+
+;?>
