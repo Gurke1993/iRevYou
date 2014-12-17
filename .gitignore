@@ -16,6 +16,10 @@ local.properties
 .settings/
 .loadpath
 
+#irevyou specifics
+.dropbox.attr
+.php.ini
+
 # External tool builders
 .externalToolBuilders/
 
