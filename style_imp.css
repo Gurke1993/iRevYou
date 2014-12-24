@@ -1,23 +1,30 @@
 
 /*Body-Includes all Elements*/
 body {
-font-size:1.3em;
+font-size:1.1em;
 font-family: 'Open Sans', sans-serif;
 margin:0px ;
 padding-top:65px;
 text-align:center;
 background-color:#2980b9;
 background-position:top;
-background-image: url(resources/1.jpg); 	 
+background-image: url(resources/1.jpg);
+background-attachment: fixed;  	 
 }
 
 header {
 width:42%;
 margin: 0px auto;
 padding:30px;
-background-color:white;	 
+font-size:1.0em;
+background-color:white;
+
 }
+
+.left { text-align:left;}
+
 .logo{
 width:300px;
 height:86px;
+padding-bottom:30px;
 }
